@@ -1,0 +1,20 @@
+.carousel {
+    width: 100%;
+    margin: 20px 0px;
+}
+
+.carousel:hover {
+    cursor: pointer;
+}
+
+.slide {
+    display: block;
+    height: 149px;
+    width: 163px;
+    border-radius: 10px;
+    border: 0;
+    outline: none;
+    text-align: center;
+    -moz-user-select: none;
+    pointer-events: none;
+}

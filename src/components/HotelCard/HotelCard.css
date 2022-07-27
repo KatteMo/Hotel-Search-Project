@@ -1,0 +1,105 @@
+.hotel-card {
+    display: flex;
+    flex-direction: row;
+    padding: 14px;
+    padding-left: 0;
+    border-bottom: 1px solid rgba(135, 135, 135, 0.2);
+
+    font-family: Roboto;
+    line-height: 22px;
+    width: 100%;
+}
+
+.hotel-card__house-icon-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hotel-card__house-icon {
+    height: 64px;
+    width: 64px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 24px;
+}
+
+.hotel-card__house-icon-circle {
+    position: absolute;
+
+}
+
+.hotel-card__main-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.hotel-card__main-info__title-and-like {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    width: 100%;
+}
+
+.hotel-card__main-info__title-and-like__title {
+    font-size: 17px;
+    font-weight: 300;
+    letter-spacing: -0.40799999237060547px;
+
+    margin: 0;
+}
+
+.hotel-card__main-info__title-and-like__like_wrapper {
+    flex-shrink: 0;
+}
+
+.hotel-card__main-info__title-and-like__like_wrapper:hover {
+    cursor: pointer;
+}
+
+.hotel-card__main-info__title-and-like__like {
+    height: 21px;
+}
+
+.hotel-card__main-info__days-and-price {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hotel-card__main-info__days-and-price__date {
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: -0.40799999237060547px;
+    color: #878787;
+}
+
+.hotel-card__main-info__days-and-price__date__dash {
+    margin-left: 15px;
+    margin-right: 5px;
+}
+
+.hotel-card__main-info__days-and-price__price {
+    font-size: 11px;
+    font-weight: 300;
+    letter-spacing: -0.40799999237060547px;
+    color: #878787;
+}
+
+.hotel-card__main-info__days-and-price__price-number {
+    margin-left: 10px;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: -0.40799999237060547px;
+
+    color: #424242;
+}

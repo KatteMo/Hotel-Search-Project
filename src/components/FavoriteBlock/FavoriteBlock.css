@@ -1,0 +1,64 @@
+.favorites {
+    display: flex;
+    flex-direction: column;
+    height: 472px;
+    width: 296px;
+
+    font-family: Roboto;
+    padding: 32px;
+    border-radius: 16px;
+    background: #FFFFFF;
+}
+
+.favorites__title {
+    margin: 0;
+    margin-bottom: 25px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.favorites__sort-checkers {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+}
+
+.sort-switch {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 4px 8px;
+    margin-right: 8px;
+
+    border-radius: 4px;
+    border: 1px solid #41522E;
+    background: inherit;
+
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.40799999237060547px;
+    color: #41522E;
+}
+
+.sort-switch:hover {
+    cursor: pointer;
+}
+
+.sort-switch__arrows {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 4px;
+}
+
+.favorites__hotels {
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.favorites__hotels::-webkit-scrollbar {
+    display: none;
+}

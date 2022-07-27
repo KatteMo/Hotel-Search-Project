@@ -1,0 +1,98 @@
+.checkin-form {
+  position: absolute;
+  top: calc(50% - 385px / 2);
+  left: calc(50% - 409px / 2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  width: 409px;
+  height: 385px;
+  padding: 32px;
+
+  font-weight: 300;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 33px rgba(0 0 0 4%);
+}
+
+.checkin-form__title {
+  margin: 0;
+  margin-bottom: 12px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: center;
+
+  font-family: Roboto, sans-serif;
+  color: #424242;
+}
+
+.checkin-form__field {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 20px;
+  position: relative;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 19px;
+
+  font-family: Roboto, sans-serif;
+  color: #424242;
+}
+
+.checkin-form__field__title {
+  margin: 0;
+  margin-bottom: 7px;
+}
+
+.checkin-form__field__input {
+  margin-bottom: 4px;
+  height: 50px;
+  padding: 0 16px;
+
+  font-size: 20px;
+  border: 1px solid #c9cacc;
+  border-radius: 4px;
+}
+
+.checkin-form__field__input:focus {
+  outline: 1.5px solid #8e4723;
+}
+
+.checkin-form__button {
+  margin-top: 28px;
+  width: 345px;
+  height: 50px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fff;
+
+  background: linear-gradient(104.34deg, #41522e -15.34%, #be8022 145.95%);
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  box-shadow: 0 0 2px rgba(0 0 0 15%);
+}
+
+.checkin-form__button:hover {
+  cursor: pointer;
+}
+
+.checkin-form__button:disabled {
+  cursor: default;
+}
+
+.checkin-form__field__error {
+  color: #eb1e1e;
+}
+
+.checkin-form__field__error-message {
+  position: absolute;
+  top: 78px;
+  font-size: 12px;
+}
